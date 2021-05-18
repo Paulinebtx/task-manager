@@ -36,6 +36,7 @@ const menu = () => {
         console.log('Your task has been deleted on list');
         menu();
       });
+      /*didn't have time to the nbr 4*/
     } else if (nbr === '5') {
       console.log('Exit');
       rl.close();
